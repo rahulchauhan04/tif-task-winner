@@ -10,7 +10,7 @@ const Home = () => {
       <LandingSection />
       <About />
       <ArticleSection />
-      {/* <Footer /> */}
+      <Footer />
     </MainLayout>
   );
 };

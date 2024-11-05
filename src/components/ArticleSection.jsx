@@ -56,30 +56,30 @@ const ArticleSection = () => {
   );
 
   return (
-    <section className="py-8">
-      <h2 className="text-[36px] sm:text-[56px] text-center sm:text-left sm:ml-[120px] font-semibold text-[#0E2368] mb-[40px] sm:mb-[60px] mt-[80px] sm:mt-0 font-poppins sm:font-sans ">
+    <section className="py-4 sm:py-8 px-4 sm:px-0">
+      <h2 className="text-[28px]  text-left sm:text-[56px] pl-[75px] sm:pl-[120px] font-semibold text-[#0E2368] mb-[20px] sm:mb-[60px] mt-[40px] sm:mt-0 font-poppins sm:font-sans tracking-[0.04em] sm:tracking-normal">
         Latest Articles
       </h2>
-      <div className="flex flex-col sm:flex-row justify-center gap-8 flex-wrap items-center">
+      <div className="flex flex-col sm:flex-row justify-center gap-[40px] sm:gap-8 flex-wrap items-center">
         {currentArticles.map((article, index) => (
           <div
             key={index}
-            className="w-[300px] border-[1.2px] border-[#93A2D361] sm:w-[381px] h-auto sm:h-[554px]  gap-1 sm:gap-3  rounded-[18px] p-8 sm:p-7 shadow-lg flex flex-col items-center sm:items-start text-left sm:text-left border-mobile "
+            className="w-[271px] sm:w-[381px] h-auto sm:h-[554px] border-[1.2px] border-[#93A2D361] rounded-[21px] sm:rounded-[18px] p-4 sm:px-12 sm:py-10  shadow-lg flex flex-col items-start gap-[4px]  sm:gap-3 border-mobile"
           >
             <div className="w-full mb-4">
               <img
                 src={article.imgSrc}
                 alt={article.title}
-                className="w-full h-[185px] sm:h-full p-2 sm:p-0 object-cover rounded-t-lg"
+                className="w-full h-[166px] sm:h-[185px] object-cover  rounded-[21px] sm:rounded-t-lg"
               />
             </div>
-            <h3 className="text-lg sm:text-xl font-semibold text-[#0E2368] mb-2">
+            <h3 className="text-[16px] sm:text-xl font-bold text-[#0E2368] mb-2">
               {article.title}
             </h3>
-            <p className="text-[12px] sm:text-base font-sourceSansPro mb-4 line-clamp-none sm:line-clamp-3 leading-[22px] sm:leading-normal text-[#444957]">
+            <p className="text-[12px] sm:text-base font-sourceSansPro mb-4 leading-[22px] sm:leading-normal text-[#444957]">
               {article.content}
             </p>
-            <button className="px-9 sm:px-6 py-2 border-[2px] sm:border-[1.3px] border-[#424961] rounded-full text-[#424961] font-semibold mt-auto">
+            <button className="px-[33px] sm:px-6 py-[10px] sm:py-2 border-[1.2px] sm:border-[1.3px] border-[#424961] rounded-[27px] sm:rounded-full text-[11px] sm:text-base text-[#424961] font-semibold mt-auto">
               Read More
             </button>
           </div>
@@ -87,7 +87,7 @@ const ArticleSection = () => {
       </div>
 
       {/* Pagination Controls */}
-      <div className="flex justify-center items-center gap-4 mt-8">
+      <div className="flex justify-center items-center gap-4 mt-[50px] sm:mt-8">
         <button
           onClick={handlePreviousPage}
           disabled={currentPage === 1}
