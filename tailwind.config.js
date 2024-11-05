@@ -5,8 +5,19 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ['Poppins'],
+        sourceSansPro: ['"Source Sans Pro"'],
+      },
+      lineHeight: {
+        '22px': '22px', // Adding custom line-height of 22px
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    import('@tailwindcss/line-clamp'),
+    // other plugins if needed
+  ],
 }
 
