@@ -7,7 +7,7 @@ const Footer = () => {
         
         {/* Logo Section */}
         <div className="w-[75px] sm:w-[161px] h-[58px] sm:h-[125px] flex items-center mx-auto sm:mx-0 sm:ml-[-30px]">
-          <img src="/src/assets/logo.webp" alt="Food Truck Logo" className="w-full h-auto" />
+          <img src="assets/logo.webp" alt="Food Truck Logo" className="w-full h-auto" />
         </div>
 
         {/* Contact Us Section */}
@@ -41,6 +41,11 @@ const Footer = () => {
 
         {/* Social Links Section */}
         <div className="w-full sm:w-auto flex flex-col items-center sm:items-start mr-2">
+          {/* Social Links Heading (hidden on mobile) */}
+            <h3 className="text-[15.77px] sm:text-[18.84px] ml-14 sm:mr-[-30px] font-semibold text-[#0E2368] leading-[35px] sm:leading-[27.22px] mb-4 sm:mb-2 hidden sm:block">
+              Social Links
+            </h3>
+
           <div className="flex space-x-4 sm:space-x-8 text-lg sm:text-2xl sm:ml-14 text-[#0E2368] mt-6 sm:mt-0 sm:mb-2">
             <FaInstagram />
             <FaTwitter />

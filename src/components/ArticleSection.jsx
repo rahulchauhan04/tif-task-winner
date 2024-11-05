@@ -1,36 +1,36 @@
-import React, { useState } from 'react';
+import { useState } from "react";
 
 // Sample articles data
 const articles = [
   {
     title: 'Grilled Tomatoes at Home',
     content: 'PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley....',
-    imgSrc: '/src/assets/tomato.webp',
+    imgSrc: 'assets/tomato.webp',
   },
   {
     title: 'Snacks for Travel',
     content: 'PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley....',
-    imgSrc: '/src/assets/snacks.webp',
+    imgSrc: 'assets/snacks.webp',
   },
   {
     title: 'Post-workout Recipes',
     content: 'PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley....',
-    imgSrc: '/src/assets/recepie.webp',
+    imgSrc: 'assets/recepie.webp',
   },
   {
     title: 'How To Grill Corn',
     content: 'PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley....',
-    imgSrc: '/src/assets/grilcorn.webp',
+    imgSrc: 'assets/grilcorn.webp',
   },
   {
     title: 'Crunchwrap Supreme',
     content: 'PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley....',
-    imgSrc: '/src/assets/meal.webp',
+    imgSrc: 'assets/meal.webp',
   },
   {
     title: 'Broccoli Cheese Soup',
     content: 'PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley....',
-    imgSrc: '/src/assets/bowl.webp',
+    imgSrc: 'assets/bowl.webp',
   },
 ];
 

@@ -18,7 +18,7 @@ const About = () => {
           {/* Left Image - Visible Only on Desktop */}
           <div className="w-full sm:w-[384px] h-[320px] sm:h-[468px] overflow-hidden hidden sm:block">
             <img 
-              src="/src/assets/girl.webp" 
+              src="assets/girl.webp" 
               alt="About Us" 
               className="w-full h-full object-cover"
             />

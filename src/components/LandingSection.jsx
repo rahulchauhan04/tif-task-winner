@@ -5,7 +5,7 @@ const LandingSection = () => {
                <header className="absolute top-0 left-0 z-10 flex items-center justify-end sm:justify-between w-full p-4 sm:p-8">
                     {/* Logo */}
                     <div className="hidden sm:block ml-5 w-[107px] h-[83px]">
-                         <img src="/src/assets/logo.webp" alt="Logo" className="w-full h-full" />
+                         <img src="/assets/logo.webp" alt="Logo" className="w-full h-full" />
                     </div>
                     {/* Get in Touch Button */}
                     <button className="text-white border border-white px-3 sm:px-5 py-2 sm:py-3 text-xs sm:text-sm rounded-full mr-4 sm:mr-[60px]">
@@ -30,8 +30,8 @@ const LandingSection = () => {
 
                     {/* Right Side - Image and Red Curve */}
                     <div className="relative w-full sm:w-[752px] h-[400px] sm:h-[804px]">
-                         <img src="/src/assets/pizza.webp" alt="Delicious Pizza" className="w-full h-full object-cover object-center rounded-bl-[100px] sm:rounded-bl-[198.9px]" />
-                         <img src="/src/assets/redcurve.webp" alt="Red Decorative Background" className="absolute top-0 right-0 w-full sm:w-[752px] h-[426px] sm:h-[839px]" />
+                         <img src="assets/pizza.webp" alt="Delicious Pizza" className="w-full h-full object-cover object-center rounded-bl-[100px] sm:rounded-bl-[198.9px]" />
+                         <img src="assets/redcurve.webp" alt="Red Decorative Background" className="absolute top-0 right-0 w-full sm:w-[752px] h-[426px] sm:h-[839px]" />
                     </div>
                </section>
           </div>
